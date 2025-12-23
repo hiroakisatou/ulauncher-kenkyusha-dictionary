@@ -55,6 +55,32 @@ git clone https://github.com/hiroakisatou/ulauncher-kenkyusha-dictionary.git ken
 - Python 3.x
 - xclip または xsel（選択テキストの取得に使用）
 
+### 依存関係のインストール
+
+xclipがインストールされていない場合は、以下のコマンドでインストールしてください：
+
+**Ubuntu/Debian:**
+```bash
+sudo apt install xclip
+```
+
+**Fedora:**
+```bash
+sudo dnf install xclip
+```
+
+**Arch Linux:**
+```bash
+sudo pacman -S xclip
+```
+
+**または xsel を使用する場合:**
+```bash
+sudo apt install xsel  # Ubuntu/Debian
+sudo dnf install xsel  # Fedora
+sudo pacman -S xsel    # Arch Linux
+```
+
 ## ライセンス
 
 MIT License
@@ -63,7 +89,32 @@ MIT License
 
 tsu-na-gu
 
+## トラブルシューティング
+
+### 選択テキストが取得できない
+
+選択したテキストが自動的に検索されない場合は、xclip または xsel がインストールされているか確認してください：
+
+```bash
+which xclip
+# または
+which xsel
+```
+
+いずれもインストールされていない場合は、上記の「依存関係のインストール」セクションを参照してください。
+
+### 拡張機能が表示されない
+
+Ulauncherを再起動してください：
+
+```bash
+ulauncher-toggle  # Ulauncherを再起動
+# または
+killall ulauncher && ulauncher &
+```
+
 ## 問題報告
 
-問題や改善提案がある場合は、GitHubのIssuesで報告してください。
+問題や改善提案がある場合は、GitHubのIssuesで報告してください：
+https://github.com/hiroakisatou/ulauncher-kenkyusha-dictionary/issues
 
