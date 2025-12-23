@@ -3,7 +3,7 @@
   "name": "研究社オンライン辞書検索",
   "description": "選択したテキストで研究社オンライン辞書を検索します",
   "developer_name": "tsu-na-gu",
-  "url": "https://github.com/tsu-na-gu/ulauncher-kenkyusha-dictionary",
+  "url": "https://github.com/hiroakisatou/ulauncher-kenkyusha-dictionary",
   "icon": "images/icon.png",
   "preferences": [
     {

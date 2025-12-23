@@ -18,7 +18,7 @@
 4. "Add extension" をクリック
 5. このリポジトリのURLを入力:
    ```
-   https://github.com/tsu-na-gu/ulauncher-kenkyusha-dictionary
+   https://github.com/hiroakisatou/ulauncher-kenkyusha-dictionary
    ```
 6. "Add" をクリック
 
@@ -26,7 +26,7 @@
 
 ```bash
 cd ~/.config/ulauncher/extensions
-git clone https://github.com/tsu-na-gu/ulauncher-kenkyusha-dictionary.git kenkyusha-dictionary
+git clone https://github.com/hiroakisatou/ulauncher-kenkyusha-dictionary.git kenkyusha-dictionary
 ```
 
 その後、Ulauncherを再起動してください。
