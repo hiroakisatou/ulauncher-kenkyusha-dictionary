@@ -1,0 +1,18 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "研究社オンライン辞書検索",
+  "description": "選択したテキストで研究社オンライン辞書を検索します",
+  "developer_name": "Your Name",
+  "url": "https://github.com/YOUR_USERNAME/ulauncher-kenkyusha-dictionary",
+  "icon": "images/icon.png",
+  "preferences": [
+    {
+      "id": "keyword",
+      "type": "keyword",
+      "name": "キーワード",
+      "description": "プラグインを起動するキーワード",
+      "default_value": "kod"
+    }
+  ]
+}
+
